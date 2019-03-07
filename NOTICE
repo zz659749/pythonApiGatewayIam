@@ -1,0 +1,24 @@
+# Copyright 2019 zz659749. All Rights Reserved.
+#
+# This file is licensed under the Apache License, Version 2.0 (the "License").
+# You may not use this file except in compliance with the License. A copy of the
+# License is located at
+#
+# http://aws.amazon.com/apache2.0/
+#
+# This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS
+# OF ANY KIND, either express or implied. See the License for the specific
+# language governing permissions and limitations under the License.
+#
+# ABOUT THIS PYTHON SAMPLE: This sample is part of the AWS General Reference 
+# Signing AWS API Requests top available at
+# https://docs.aws.amazon.com/general/latest/gr/sigv4-signed-request-examples.html
+#
+
+# AWS Version 4 signing example
+
+# EC2 API (DescribeRegions)
+
+# See: http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html
+# This version makes a GET request and passes the signature
+# in the Authorization header.
